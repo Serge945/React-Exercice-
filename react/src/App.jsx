@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import MyTitle from "./components/MyTitle"
+import PokemondCard from "./components/pokemonCard"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,6 +9,7 @@ function App() {
   return (
     <div>
       <MyTitle/>
+      <PokemondCard/>
     </div>
   )
 }
